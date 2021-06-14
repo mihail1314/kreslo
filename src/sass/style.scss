@@ -1,0 +1,81 @@
+                @import "base/variables";
+                @import "blocks/start";
+                @import "blocks/super";
+                @import "blocks/_offer";
+                @import "blocks/_card";
+                @import "blocks/footer";
+                @import "blocks/politic";
+                @import "blocks/form";
+                .container {
+                    max-width: 1110px;
+                    margin: 0 auto;
+                }
+                
+                ._container {
+                    max-width: 1110px;
+                    margin: 0 auto;
+                    padding: 0 30px;
+                }
+                
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                @media (max-width: 768px) {
+                    .header {
+                        &__list {
+                            a {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                    .offer {
+                        &__grid {
+                            display: grid;
+                            grid-template-columns: repeat(2, 255px);
+                            row-gap: 40px;
+                        }
+                    }
+                    .card {
+                        &__grid {
+                            display: grid;
+                            grid-template-columns: 540px;
+                            row-gap: 30px;
+                        }
+                    }
+                    .footer {
+                        &__grid {
+                            display: grid;
+                            grid-template-columns: 100%;
+                            row-gap: 20px;
+                            align-items: center;
+                        }
+                        &__elem {
+                            &-text {
+                                display: flex;
+                                justify-content: center;
+                            }
+                        }
+                        &__grid2 {
+                            display: grid;
+                            grid-template-columns: 100%;
+                            row-gap: 20px;
+                        }
+                        &__elem2 {
+                            a {
+                                display: flex;
+                                justify-content: center;
+                            }
+                        }
+                    }
+                    .politic {
+                        &__one {
+                            max-width: 50%;
+                        }
+                        &__text1 {
+                            font-size: 12px;
+                            line-height: 21px;
+                        }
+                    }
+                }

@@ -1,0 +1,19 @@
+.politic {
+    padding: 25px 0 25px 0;
+    background-color: #EFEFEF;
+    &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__text1 {
+        color: #828282;
+    }
+    a {
+        color: #828282;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

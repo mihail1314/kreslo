@@ -1,0 +1,55 @@
+.offer {
+    padding: 80px 0 0px 0;
+    background-color: #EFEFEF;
+    &__title {
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(4, 255px);
+        grid-template-rows: 355px;
+        column-gap: 30px;
+        justify-content: center;
+    }
+    &__content {
+        background-color: #fff;
+        img {
+            display: block;
+            margin: 0 auto;
+            padding: 25px 0 20px 0;
+        }
+        &-text {
+            padding: 0 0px 20px 40px;
+            width: 195px;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        &-price {
+            text-align: center;
+            font-weight: 700;
+            font-size: 21px;
+            padding-bottom: 20px;
+        }
+        &-div {
+            padding-bottom: 25px;
+        }
+        &-btn {
+            width: 130px;
+            height: 35px;
+            display: block;
+            margin: 0 auto;
+            background: #66C05D;
+            border-radius: 30px;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s all;
+            &:hover {
+                background-color: #439e3b;
+            }
+        }
+    }
+}

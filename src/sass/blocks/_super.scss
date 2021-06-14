@@ -1,0 +1,36 @@
+.super {
+    padding-top: 30px;
+    background: url(..//..//img/Frame2.jpg) center center/cover no-repeat;
+    min-height: 600px;
+    &__wrap {
+        padding-top: 192px;
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 48px;
+        color: #fff;
+        margin-bottom: 50px;
+    }
+    &__text {
+        width: 320px;
+        font-size: 18px;
+        line-height: 20px;
+        color: #fff;
+        margin-bottom: 50px;
+    }
+    &__btn {
+        width: 170px;
+        height: 40px;
+        background: #66C05D;
+        border: 2px solid #FFFFFF;
+        border-radius: 40px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s all;
+        &:hover {
+            background-color: #fff;
+            color: #000;
+        }
+    }
+}

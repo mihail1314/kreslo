@@ -1,0 +1,82 @@
+.footer {
+    padding: 40px 0 30px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 228px);
+        column-gap: 205px;
+        align-items: center;
+    }
+    &__flex {
+        display: flex;
+        .one,
+        .two,
+        .three,
+        .four {
+            position: relative;
+        }
+        img {
+            display: block;
+            margin: 0 16px;
+        }
+        .pos1 {
+            position: absolute;
+            top: 15px;
+            left: 12px;
+        }
+        .pos2 {
+            position: absolute;
+            top: 15px;
+            left: 8px;
+        }
+        .pos3 {
+            position: absolute;
+            top: 12px;
+            left: 15px;
+        }
+        .pos4 {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+        }
+    }
+    &__elem {
+        &-text {
+            min-width: 237px;
+        }
+    }
+    &__grid2 {
+        display: grid;
+        grid-template-columns: 127px 170px;
+        column-gap: 40px;
+        align-items: center;
+    }
+    &__elem2 {
+        a {
+            text-decoration: none;
+            color: #000;
+            transition: 0.3s all;
+            &:hover {
+                color: saddlebrown;
+            }
+        }
+        &-btn {
+            width: 170px;
+            height: 40px;
+            border: 2px solid $main-color;
+            background-color: #fff;
+            border-radius: 40px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s all;
+            &:hover {
+                background-color: $main-color;
+                color: #fff;
+            }
+        }
+    }
+}
